@@ -9,10 +9,7 @@
     "build": "rollup -c",
     "test": "ts-node node_modules/tape/bin/tape ./test/index.test.ts"
   },
-  "repository": {
-    "type": "git",  
-    "url": "https://github.com/webgently/yongjun-sdk.git"
-  },
+  "repository": "https://github.com/webgently/yongjun-sdk.git",
   "keywords": [
     "The Lord of the Rings",
     "typescript",
@@ -20,7 +17,7 @@
     "nodejs"
   ],
   "author": "Yong Jun<hopeyongjun421@gmail.com>",
-  "license": "ISC",
+  "license": " ",
   "bugs": {
     "url": "https://github.com/webgently/yongjun-sdk/issues"
   },

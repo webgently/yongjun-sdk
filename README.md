@@ -25,7 +25,7 @@ sdk.getMovieList().then(json=>{
 - typescript
 
 ```typescript
-import namehash from 'yongjun-sdk';
+import sdk from 'yongjun-sdk';
 sdk.initApi("y-********-******")
 sdk.getMovieList().then(json=>{
     console.log(json)
