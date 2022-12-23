@@ -26,6 +26,19 @@ const fetchApi = async (api: string) => {
 		throw new Error("unknown error")
 	}
 }
+
+
+//Get Book
+const getBookList = () => {
+	return fetchApi('book');
+}
+const getBookById = (id: string) => {
+	return fetchApi(`book/${id}`);
+}
+const getBookChapterById = (id: string) => {
+	return fetchApi(`book/${id}/chapter`);
+}
+
 // Get Movie
 const getMovieList = () => {
 	return fetchApi('movie');
@@ -66,6 +79,9 @@ const getChapterById = (id: string) => {
 }
 export default {
 	initApi,
+	getBookList,
+	getBookById,
+	getBookChapterById,
 	getMovieList,
 	getMovieById,
 	getMovieQuoteById,
