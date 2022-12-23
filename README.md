@@ -14,6 +14,8 @@ npm install yongjun-sdk -S
 
 ## Usage
 
+- javascript
+
 ```javascript
 var sdk = require('yongjun-sdk');
 sdk.initApi("y-********-******")
