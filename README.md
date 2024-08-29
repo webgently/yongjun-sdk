@@ -1,4 +1,4 @@
-# The Lord of the Rings API SDK (written by YongJun 12/23/2022)
+# The Lord of the Rings API SDK
 
 An SDK for an existing Lord of the Rings API
 
